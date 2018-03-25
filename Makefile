@@ -1,6 +1,6 @@
 TAG?=$(shell git rev-parse --short HEAD)
 PREFIX ?= $(shell pwd)
-REPO = github.com/ant31/crd-validation
+REPO = github.com/anubhakushwaha/crd-validation
 pkgs = $(shell go list ./... | grep -v /vendor/ | grep -v /test/)
 
 all: check-license format build test
