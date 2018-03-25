@@ -1,5 +1,5 @@
 OPENAPI_GEN := $(shell command -v openapi-gen 2> /dev/null)
-REPO :=github.com/ant31/crd-validation/example/prometheus-crd-gen
+REPO :=github.com/anubhakushwaha/crd-validation/example/prometheus-crd-gen
 ifeq ($(GOBIN),)
 GOBIN :=${GOPATH}/bin
 endif
